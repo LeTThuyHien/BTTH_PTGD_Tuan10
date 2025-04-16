@@ -1,0 +1,41 @@
+.menu {
+    padding: 10px 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-item {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+
+
+.menu-item li {
+    padding: 10px;
+
+}
+
+.menu-item li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: rgb(228, 99, 166);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.menu-item li a:hover {
+    color: #f39c12;
+}
+
+.menu-item li a.active {
+    color: #3498db;
+    font-weight: bold;
+}
