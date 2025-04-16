@@ -4,6 +4,7 @@ import './App.css';
 
 import Home from './Layout/Home/Home';
 import Step1 from "./components/Step1/Step1"
+import Step2 from './components/Step2/Step2';
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/step1' element={<Step1 />} />
+        <Route path='/step2' element={<Step2 />} />
+
       </Routes>
     </BrowserRouter>
   );

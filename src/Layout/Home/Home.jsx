@@ -11,6 +11,9 @@ function Home() {
                 <li >
                     <Link to="/step1">Step1</Link>
                 </li>
+                <li >
+                    <Link to="/step2">Step2</Link>
+                </li>
             </ul>
         </div>
 
