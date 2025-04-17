@@ -7,6 +7,7 @@ import Step1 from "./components/Step1/Step1"
 import Step2 from './components/Step2/Step2';
 import Step3 from './components/Step3/Step3';
 import CounterApp from './components/CounterApp/CounterApp';
+import ToDoList from './components/ToDoList/ToDoList';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/step2' element={<Step2 />} />
         <Route path='/step3' element={<Step3 />} />
         <Route path='/counterApp' element={<CounterApp />} />
+        <Route path='/todolist' element={<ToDoList/>} />
 
       </Routes>
     </BrowserRouter>

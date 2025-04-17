@@ -20,6 +20,9 @@ function Home() {
                 <li >
                     <Link to="/counterApp">Bai1. Counter App</Link>
                 </li>
+                <li >
+                    <Link to="/todolist">Bai2. To Do List</Link>
+                </li>
 
             </ul>
         </div>
