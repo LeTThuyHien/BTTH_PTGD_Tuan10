@@ -1,23 +1,36 @@
 import React from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { increment, decrement } from '../../redux/counterSlice';
+import { useSelector, useDispatch } from 'react-redux';
+import { increment, decrement, setStep, reset } from '../../redux/counterSlice';
 
-
-import "./Step2.css"
 function Step2() {
-    const count = useSelector((state) => state.counter.value);
+    const { count, step } = useSelector((state) => state.counter1);
     const dispatch = useDispatch();
 
     return (
-        <div className='container'>
-            <h2>Counter with Redux</h2>
-            <h3>Count: {count}</h3>
+        <div className='step2-container'>
+            <h2>Step2: Counter with Step (Redux + Pure Reducer)</h2>
+            <p>Count: {count}</p>
+            <p>Step: {step}</p>
+
             <div className='action-btn'>
                 <button onClick={() => dispatch(decrement())}>-</button>
                 <button onClick={() => dispatch(increment())}>+</button>
+                <button onClick={() => dispatch(reset())}>Reset</button>
             </div>
 
-        </div>
+            <div style={{ margin: '10px' }}>
+                <label>Set Step: </label>
+                <input
+                    className='input-btn'
+                    style={{ padding: '8px' }}
+                    type="number"
+                    value={step}
+                    onChange={(e) =>
+                        dispatch(setStep(parseInt(e.target.value) || 1))
+                    }
+                />
+            </div>
+        </div >
     );
 }
 

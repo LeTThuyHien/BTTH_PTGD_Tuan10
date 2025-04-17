@@ -1,27 +1,7 @@
-.container {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 10px;
-
-}
-
-.container h3 {
-    font-weight: 300;
-}
-
-.action-btn {
+.step2-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    flex-direction: column;
 }
 
-.action-btn button {
-    padding: 10px 15px;
-    background-color: rgb(233, 138, 209);
-    color: aliceblue;
-    border: none;
-    border-radius: 8px;
-    font-size: 15px;
-}
