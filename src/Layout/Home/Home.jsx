@@ -17,6 +17,10 @@ function Home() {
                 <li >
                     <Link to="/step3">Step3</Link>
                 </li>
+                <li >
+                    <Link to="/counterApp">Bai1. Counter App</Link>
+                </li>
+
             </ul>
         </div>
 
