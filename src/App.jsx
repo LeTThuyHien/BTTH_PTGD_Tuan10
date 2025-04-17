@@ -9,6 +9,8 @@ import Step3 from './components/Step3/Step3';
 import CounterApp from './components/CounterApp/CounterApp';
 import ToDoList from './components/ToDoList/ToDoList';
 import ThemeToggle from './components/ThemeToggle/ThemeToggle';
+import Cart from './components/Cart/Cart';
+
 
 function App() {
   return (
@@ -21,7 +23,7 @@ function App() {
         <Route path='/counterApp' element={<CounterApp />} />
         <Route path='/todolist' element={<ToDoList />} />
         <Route path='/themetoggle' element={<ThemeToggle />} />
-
+        <Route path='/cart' element={<Cart />} />
       </Routes>
     </BrowserRouter>
   );
