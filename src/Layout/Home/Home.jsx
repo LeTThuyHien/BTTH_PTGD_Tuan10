@@ -29,6 +29,10 @@ function Home() {
                 <li >
                     <Link to="/cart">Bai4. Cart</Link>
                 </li>
+                <li >
+                    <Link to="/auth">Bai5. Auth</Link>
+                </li>
+
 
             </ul>
         </div>

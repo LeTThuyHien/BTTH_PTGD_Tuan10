@@ -10,6 +10,7 @@ import CounterApp from './components/CounterApp/CounterApp';
 import ToDoList from './components/ToDoList/ToDoList';
 import ThemeToggle from './components/ThemeToggle/ThemeToggle';
 import Cart from './components/Cart/Cart';
+import Login from './components/Auth/Login';
 
 
 function App() {
@@ -24,6 +25,8 @@ function App() {
         <Route path='/todolist' element={<ToDoList />} />
         <Route path='/themetoggle' element={<ThemeToggle />} />
         <Route path='/cart' element={<Cart />} />
+        <Route path='/auth' element={<Login />} />
+
       </Routes>
     </BrowserRouter>
   );
