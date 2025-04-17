@@ -23,6 +23,9 @@ function Home() {
                 <li >
                     <Link to="/todolist">Bai2. To Do List</Link>
                 </li>
+                <li >
+                    <Link to="/themetoggle">Bai3. Theme Toggle</Link>
+                </li>
 
             </ul>
         </div>

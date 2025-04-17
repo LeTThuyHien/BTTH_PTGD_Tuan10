@@ -1,0 +1,28 @@
+body.light {
+    background-color: #ffffff;
+    color: #000000;
+    transition: all 0.3s ease;
+}
+
+body.dark {
+    background-color: #2b2b2b;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.theme-container {
+    min-height: 100vh;
+    padding: 20px;
+    text-align: center;
+}
+
+.theme-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid currentColor;
+    border-radius: 6px;
+    margin-top: 10px;
+    color: inherit;
+}

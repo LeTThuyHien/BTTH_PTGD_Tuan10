@@ -8,6 +8,7 @@ import Step2 from './components/Step2/Step2';
 import Step3 from './components/Step3/Step3';
 import CounterApp from './components/CounterApp/CounterApp';
 import ToDoList from './components/ToDoList/ToDoList';
+import ThemeToggle from './components/ThemeToggle/ThemeToggle';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
         <Route path='/step2' element={<Step2 />} />
         <Route path='/step3' element={<Step3 />} />
         <Route path='/counterApp' element={<CounterApp />} />
-        <Route path='/todolist' element={<ToDoList/>} />
+        <Route path='/todolist' element={<ToDoList />} />
+        <Route path='/themetoggle' element={<ThemeToggle />} />
 
       </Routes>
     </BrowserRouter>
